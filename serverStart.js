@@ -17,6 +17,8 @@ app.get('/', (req, res) => {
 
 app.get('/stylesheet.css', (req, res) => {
 
+    // To make the style sheet accessable by the index.html file, we must put its path here.
+
     res.sendFile(path.join(__dirname + '/pages/stylesheet.css'));
 
     console.log('Got request for /stylesheet.css ... ');

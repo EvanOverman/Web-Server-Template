@@ -3,20 +3,7 @@ In css you reference different elements by their names or id's like this:
 */
 
 #banner{
-    background-color: #bdbdbd;
-    color: #000000;
-
-    padding-left: 10%;
-    padding-right: 10%;
-
-    padding-top: 10%;
-    padding-bottom: 15%;
-
-    margin-left: 20%;
-    margin-right: 20%;
-
-    margin-top: 0px;
-    margin-bottom: 0px;
+    color: #111111;
 }
 
 h1{
