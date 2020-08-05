@@ -1,6 +1,4 @@
 # Web-Server-Template
-A template for creating a web server hosted on a specific port of a given machine.
+This is a simple template for creating a server to host a website, if you do intend to use it for such make sure to port forward the port you decide to use to host the website on.
 
-You may need to change directory to run this properly like so:
-
-cd C:/Users/you/Downloads/Web-Server-Template
+You will find that some blocks of code are commented out, these can be used to add special functionality to your site, such as redirects and downloads.
