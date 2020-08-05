@@ -1,18 +1,26 @@
-// Made by Evan Overman
-// 7 / 7 / 2020
+// https://github.com/EvanOverman/Web-Server-Template
 
-const {exec} = require('child_process');
-const app = require('express')();
-const path = require('path');
-const fs = require('fs');
+express = require('express');
+path = require('path');
 
-// This would be at http://you.ip:yourport/.
+app = express();
 
 app.get('/', (req, res) => {
 
-    // You can put any html code in here, or just a string.
+    // You can put any html code in here, just a simple string, or even a file.
 
-    res.send('A string' + '<p>html<p>');
+    res.sendFile(path.join(__dirname + '/pages/index.html'));
+
+    console.log('Got request for / ');
+
+});
+
+app.get('/stylesheet.css', (req, res) => {
+
+    res.sendFile(path.join(__dirname + '/pages/stylesheet.css'));
+
+    console.log('Got request for /stylesheet.css ... ');
+
 });
 
 // This would be at http://your.ip:yourport/dir.
