@@ -1,0 +1,1 @@
+If you would like to contribute simply make a pull request and if I like what you've done I'll put in in the master branch, if I like it but its not the direction I'm tryig to go with this repo I will simply put it in another branch.
